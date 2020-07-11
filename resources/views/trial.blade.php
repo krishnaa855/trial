@@ -6,8 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-{{$t}} {{$name}}
-<form method="post" action="user">
+
+<form method="post" action="savedata" enctype="multipart/form-data" >
 
 @csrf
 <input type="text" name="name"> :name<br><br>
